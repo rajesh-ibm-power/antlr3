@@ -8,6 +8,7 @@ arch:
   - amd64
   - ppc64le
 
-install: mvn install
+install: 
+  - mvn install
 script:
-    - mvn test
+  - mvn test
